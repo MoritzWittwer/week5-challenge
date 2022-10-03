@@ -1,7 +1,7 @@
 random_number = rand(100)
-puts random_number
+#puts random_number # Line auskommentieren für Anzeige der Zufallszahl
 
-print "bitte gib eine Zahl ein zwischen 0 und 100 ein: " 
+print "bitte gib eine Zahl zwischen 0 und 100 ein: " 
 eingabe=gets.chomp.to_i
 puts "du hast #{eingabe} eingegeben"
 
@@ -25,5 +25,5 @@ unless (eingabe == random_number)
             end 
         end
 end
-print "Super du hast mit der Zahl #{eingabe} einen Volltreffer gelandet"   
+print "Super du hast mit der Zahl #{eingabe} einen direkten Volltreffer gelandet"   
 exit
